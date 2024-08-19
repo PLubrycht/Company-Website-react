@@ -1,0 +1,29 @@
+.offer {
+  background-color: #405d78;
+}
+.offer-content {
+  display: flex;
+  flex-direction: column;
+}
+.offer-header {
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+
+@media (min-width: 1024px) {
+  .offer {
+    display: flex;
+    justify-content: center;
+  }
+  .offer-header {
+    text-align: left;
+    width: 100%;
+    font-size: 36px;
+  }
+  .offer-content {
+    align-items: center;
+  }
+}

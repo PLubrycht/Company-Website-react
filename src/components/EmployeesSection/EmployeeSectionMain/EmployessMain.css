@@ -1,0 +1,25 @@
+.employees {
+  background-color: #f1f1f1;
+}
+.employees-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.employees-header {
+  font-size: 36px;
+  color: #152d41;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+
+@media (min-width: 1024px) {
+  .employees {
+    display: flex;
+    justify-content: center;
+  }
+  .employees-content {
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,16 @@
+.offer-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 45px;
+}
+@media (min-width: 1024px) {
+  .offer-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 720px;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
