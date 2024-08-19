@@ -5,3 +5,7 @@
     margin-right: 50px;
   }
 }
+.disabled-link {
+  cursor: not-allowed;
+  color: #f1f1f1;
+}

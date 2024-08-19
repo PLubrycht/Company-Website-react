@@ -1,19 +1,20 @@
 import "./App.css";
 import Employees from "./components/EmployeesSection/EmployeeSectionMain/EmployeeMain";
 import Footer from "./components/Footer/FooterMain/FooterMain";
-import Navbar from "./components/Header/NavbarMain/Navbar";
+import Header from "./components/Header/HeaderMain/Header";
+
 import Hero from "./components/HeroSection/Hero";
 import OfferMain from "./components/OfferSections/OfferMain/OfferMain";
 
-function App() {
+const App = () =>{
   return (
-    <div className="App">
-      <Navbar />
+    <>
+      <Header />
       <Hero />
       <Employees />
       <OfferMain/>
       <Footer />
-      </div>
+      </>
   );
 }
 

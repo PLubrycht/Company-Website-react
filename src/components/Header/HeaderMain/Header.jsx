@@ -1,7 +1,7 @@
-import "./Navbar.css";
+import "./Header.css";
 import NavbarLinks from "../NavbarLinks/NavbarLinks";
 
-const Navbar = () => {
+const Header = () => {
   return (
     <header className="navbar">
       <div className="content">
@@ -11,4 +11,4 @@ const Navbar = () => {
     </header>
   );
 };
-export default Navbar;
+export default Header;

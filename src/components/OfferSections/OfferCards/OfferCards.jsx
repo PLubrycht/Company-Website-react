@@ -1,6 +1,6 @@
 import "./OfferCards.css";
 import OfferSquare from "../Offers/OfferSquare";
-import { offerData } from '../../../utils/offerData';
+import { offerData } from '../../../data/offerData';
 
 
 const OfferCards = () => {
