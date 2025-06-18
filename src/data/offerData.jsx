@@ -1,8 +1,20 @@
 export const offerData = [
-  { name: 'Usługa 1', isNew: true },
-  { name: 'Usługa 2', isNew: false },
-  { name: 'Usługa 3', isNew: false },
-  { name: 'Usługa 4', isNew: false },
-  { name: 'Usługa 5', isNew: false },
-  { name: 'Usługa 6', isNew: false },
+  {
+    name: 'Strony internetowe',
+    description: 'Projektowanie i kodowanie nowoczesnych stron internetowych.',
+    icon: '💻',
+    isNew: true
+  },
+  {
+    name: 'Branding',
+    description: 'Tworzenie identyfikacji wizualnej i logo dla firm.',
+    icon: '🎨',
+    isNew: false
+  },
+  {
+    name: 'Sklepy online',
+    description: 'Budowa nowoczesnych sklepów internetowych z systemem płatności.',
+    icon: '🛒',
+    isNew: false
+  }
 ];
