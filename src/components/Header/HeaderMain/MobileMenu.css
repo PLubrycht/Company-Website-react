@@ -1,0 +1,35 @@
+.hamburger {
+  background: none;
+  font-size: 28px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: block;
+}
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #4e4e4e;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 50%;
+  z-index: 1000;
+}
+
+.mobile-nav a, .mobile-nav .disabled-link {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .mobile-menu {
+    display: none;
+  }
+}

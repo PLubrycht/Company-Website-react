@@ -6,9 +6,9 @@ export const employeesData = [
     description: "Odpowiedzialna za codzienne prowadzenie finansów i dokumentację, wspiera kadrę zarządzającą w podejmowaniu decyzji."
   },
   {
-    name: "Jan Kowalski",
+    name: "Sylvia Kaminski",
     role: "Marketing",
-    image: "/assets/example2.jpg",
+    image: "/assets/pexels-andrea-piacquadio-3768911.jpg",
     description: "Zajmuje się strategią marketingową i komunikacją wizualną firmy."
   }
 ];

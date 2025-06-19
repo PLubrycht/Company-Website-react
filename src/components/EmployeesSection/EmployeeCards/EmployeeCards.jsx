@@ -1,13 +1,15 @@
-import "../EmployeeCards/EmployeeCards.css";
+import EmployeeCard from "./EmployeeCard";
+import { employeesData } from "../../../data/employeesData";
+import "./EmployeeCards.css";
 
-import LizTaylor from "./Employees/LizTaylor/LizTaylor";
-import NatashaJohnson from "./Employees/NatashaJohnson/NatashaJohnson";
 const EmployeeCards = () => {
   return (
     <div className="employee-cards">
-      <LizTaylor />
-      <NatashaJohnson />
+      {employeesData.map((employee, index) => (
+        <EmployeeCard key={index} {...employee} />
+      ))}
     </div>
   );
 };
+
 export default EmployeeCards;

@@ -1,5 +1,6 @@
+// src/components/EmployeesSection/EmployeeSectionMain/EmployeeMain.jsx
 import "./EmployessMain.css";
-import EmployeeCards from "../EmployeeCards/EmployeeCards";
+import EmployeeCards from "../EmployeeCards/EmployeeCards"; // OK!
 
 const Employees = () => {
   return (
@@ -11,4 +12,5 @@ const Employees = () => {
     </section>
   );
 };
+
 export default Employees;
