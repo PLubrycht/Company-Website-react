@@ -2,7 +2,7 @@ import "./EmployeeCards.css";
 
 const EmployeeCard = ({ name, role, image, description }) => {
   return (
-    <div className="employee">
+    <div className="employee" data-aos="fade-up">
       <div className="employee-pic">
         <img src={image} alt={name} />
       </div>

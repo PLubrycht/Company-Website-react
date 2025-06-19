@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="shadow">
-        <div className="content hero-content">
+        <div className="content hero-content" data-aos="fade-up">
           <h1 className="hero-header">
             Nasza firma oferuje najwyższej jakości produkty.
           </h1>

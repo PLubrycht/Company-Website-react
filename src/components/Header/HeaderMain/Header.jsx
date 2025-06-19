@@ -4,7 +4,7 @@ import MobileMenu from "./MobileMenu"; // dodaj
 
 const Header = () => {
   return (
-    <header className="navbar">
+    <header className="navbar" >
       <div className="content">
         <p className="company-name">Nasza Firma</p>
         <NavbarLinks />

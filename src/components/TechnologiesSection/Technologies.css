@@ -1,7 +1,8 @@
 .technologies {
   background-color: #f3f3f3;
   padding: 40px 0;
-  
+  display: flex;
+  justify-content: center;
 }
 
 .technologies-header {
