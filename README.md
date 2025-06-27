@@ -2,10 +2,10 @@
 
 A modern company website built with React. This project showcases a fictional business with a clear services offering, employee profiles, and standard web structure (header, hero section, offer, team, and footer).
 
-![Screenshot](https://via.placeholder.com/1200x600.png?text=Website+Preview) <!-- Replace with actual screenshot if needed -->
+![Screenshot](screenshot.png) <!-- Replace with actual screenshot if needed -->
 
 🌍 Live Version
-👉 [View the website on Netlify](https://your-netlify-link.netlify.app)  
+👉 [View the website on Netlify](https://company-website-react.netlify.app/)  
 
 ---
 
